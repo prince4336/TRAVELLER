@@ -74,3 +74,19 @@
     width: 150px; /* Reduce search bar width */
   }
 }
+
+#sec-class {
+  background-color: burlywood;
+}
+
+#cont1 {
+  background-color: burlywood;
+}
+
+#Populardestinations {
+  padding-bottom: 20px;
+}
+
+#Tours {
+  background-color: darkslategray;
+}

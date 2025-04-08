@@ -77,7 +77,7 @@
                   <li><a class="dropdown-item" href="#">About us</a></li>
                   <li><hr class="dropdown-divider" /></li>
                   <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#Tours">Tours</a>
                   </li>
                 </ul>
               </li>
@@ -105,6 +105,21 @@
     <!--this is my main, starts here-->
     <main>
       <!--this is my hero section, starts here-->
+      <section class="hero-section" id="sec-class">
+        <div class="hero-overlay">
+          <div>
+            <h1 class="display-3 fw-bold">Discover Your Next Adventure</h1>
+            <p class="lead fs-4">
+              Explore the world with our expertly crafted travel experiences
+            </p>
+            <a
+              href="#Populardestinations"
+              class="btn btn-danger btn-lg mt-3 px-4 py-2"
+              >Explore Destinations</a
+            >
+          </div>
+        </div>
+      </section>
       <section>
         <div id="carouselExampleIndicators" class="carousel slide">
           <div class="carousel-indicators">
@@ -207,9 +222,9 @@
       <!--this is my hero section, ends here-->
 
       <!--my service section, starts here-->
-      <section class="container">
+      <section class="container" id="Populardestinations">
         <h1 class="text-center my-5 text-secondary" id="OurService">
-          Our Service
+          Popular destinations
         </h1>
         <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1">
           <div class="col">
@@ -220,10 +235,10 @@
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Santorini, Greece</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Experience the iconic white-washed buildings and breathtaking
+                  sunsets of this Aegean paradise.
                 </p>
               </div>
             </div>
@@ -236,10 +251,10 @@
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Kyoto, Japan</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Discover ancient temples, traditional tea houses, and the
+                  beauty of cherry blossoms in spring.
                 </p>
               </div>
             </div>
@@ -252,10 +267,10 @@
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Patagonia, Argentina</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Journey to the end of the world and witness stunning glaciers
+                  and rugged mountain landscapes.
                 </p>
               </div>
             </div>
@@ -263,6 +278,98 @@
         </div>
       </section>
       <!--this is my service section ends here-->
+
+      <!-- Tours Section -->
+      <section id="Tours" class="py-5 bg-light">
+        <div class="container">
+          <h2 class="text-center mb-5">Our Tour Packages</h2>
+          <div class="accordion" id="toursAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                >
+                  European Explorer
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                data-bs-parent="#toursAccordion"
+              >
+                <div class="accordion-body">
+                  <p>
+                    14-day tour through Paris, Rome, and Barcelona. Includes
+                    flights, 4-star accommodations, daily breakfast, and guided
+                    tours of major attractions.
+                  </p>
+                  <p><strong>Price: $3,499 per person</strong></p>
+                  <a href="#" class="btn btn-sm btn-primary">View Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                >
+                  Southeast Asia Adventure
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#toursAccordion"
+              >
+                <div class="accordion-body">
+                  <p>
+                    21-day journey through Thailand, Vietnam, and Cambodia.
+                    Experience bustling cities, ancient temples, and pristine
+                    beaches. Includes all transportation, accommodations, and
+                    several meals.
+                  </p>
+                  <p><strong>Price: $2,899 per person</strong></p>
+                  <a href="#" class="btn btn-sm btn-primary">View Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                >
+                  African Safari Experience
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#toursAccordion"
+              >
+                <div class="accordion-body">
+                  <p>
+                    10-day luxury safari in Kenya and Tanzania. Stay in premium
+                    lodges, enjoy game drives with expert guides, and witness
+                    the Great Migration (seasonal). Includes all meals and
+                    domestic flights.
+                  </p>
+                  <p><strong>Price: $4,999 per person</strong></p>
+                  <a href="#" class="btn btn-sm btn-primary">View Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!--this is my about section starts here-->
       <section class="container my-5">
